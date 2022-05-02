@@ -14,6 +14,18 @@
 		B8620049282017F40016E233 /* podoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8620048282017F40016E233 /* podoTests.swift */; };
 		B8620053282017F40016E233 /* podoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8620052282017F40016E233 /* podoUITests.swift */; };
 		B8620055282017F40016E233 /* podoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8620054282017F40016E233 /* podoUITestsLaunchTests.swift */; };
+		B862006228201C120016E233 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006128201C120016E233 /* SwiftUIView.swift */; };
+		B862006428201C190016E233 /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006328201C190016E233 /* ProjectList.swift */; };
+		B862006A28201C290016E233 /* N247cardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006528201C290016E233 /* N247cardRow.swift */; };
+		B862006B28201C290016E233 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006628201C290016E233 /* CircleImage.swift */; };
+		B862006C28201C290016E233 /* N247projectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006728201C290016E233 /* N247projectRow.swift */; };
+		B862006D28201C290016E233 /* ProjectDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006828201C290016E233 /* ProjectDetail.swift */; };
+		B862006E28201C290016E233 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862006928201C290016E233 /* CardList.swift */; };
+		B862007128201C740016E233 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862007028201C740016E233 /* ModelData.swift */; };
+		B862007428201C7A0016E233 /* N247Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862007228201C7A0016E233 /* N247Card.swift */; };
+		B862007528201C7A0016E233 /* N247Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862007328201C7A0016E233 /* N247Project.swift */; };
+		B862007B28201D050016E233 /* swiftUIjsonTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B862007928201D050016E233 /* swiftUIjsonTest.json */; };
+		B862007C28201D050016E233 /* cardjson.json in Resources */ = {isa = PBXBuildFile; fileRef = B862007A28201D050016E233 /* cardjson.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		B862004E282017F40016E233 /* podoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8620052282017F40016E233 /* podoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podoUITests.swift; sourceTree = "<group>"; };
 		B8620054282017F40016E233 /* podoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B862006128201C120016E233 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B862006328201C190016E233 /* ProjectList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectList.swift; sourceTree = "<group>"; };
+		B862006528201C290016E233 /* N247cardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N247cardRow.swift; sourceTree = "<group>"; };
+		B862006628201C290016E233 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B862006728201C290016E233 /* N247projectRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N247projectRow.swift; sourceTree = "<group>"; };
+		B862006828201C290016E233 /* ProjectDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetail.swift; sourceTree = "<group>"; };
+		B862006928201C290016E233 /* CardList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		B862007028201C740016E233 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B862007228201C7A0016E233 /* N247Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N247Card.swift; sourceTree = "<group>"; };
+		B862007328201C7A0016E233 /* N247Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = N247Project.swift; sourceTree = "<group>"; };
+		B862007928201D050016E233 /* swiftUIjsonTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swiftUIjsonTest.json; sourceTree = "<group>"; };
+		B862007A28201D050016E233 /* cardjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cardjson.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				B8620037282017F30016E233 /* podoApp.swift */,
-				B8620039282017F30016E233 /* ContentView.swift */,
+				B862007828201CEF0016E233 /* Resources */,
+				B862007728201CBA0016E233 /* Views */,
+				B862006F28201C610016E233 /* Model */,
 				B862003B282017F40016E233 /* Assets.xcassets */,
 				B862003D282017F40016E233 /* Preview Content */,
 			);
@@ -125,6 +151,40 @@
 				B8620054282017F40016E233 /* podoUITestsLaunchTests.swift */,
 			);
 			path = podoUITests;
+			sourceTree = "<group>";
+		};
+		B862006F28201C610016E233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B862007028201C740016E233 /* ModelData.swift */,
+				B862007228201C7A0016E233 /* N247Card.swift */,
+				B862007328201C7A0016E233 /* N247Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B862007728201CBA0016E233 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8620039282017F30016E233 /* ContentView.swift */,
+				B862006128201C120016E233 /* SwiftUIView.swift */,
+				B862006328201C190016E233 /* ProjectList.swift */,
+				B862006828201C290016E233 /* ProjectDetail.swift */,
+				B862006528201C290016E233 /* N247cardRow.swift */,
+				B862006728201C290016E233 /* N247projectRow.swift */,
+				B862006628201C290016E233 /* CircleImage.swift */,
+				B862006928201C290016E233 /* CardList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B862007828201CEF0016E233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B862007A28201D050016E233 /* cardjson.json */,
+				B862007928201D050016E233 /* swiftUIjsonTest.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862007B28201D050016E233 /* swiftUIjsonTest.json in Resources */,
+				B862007C28201D050016E233 /* cardjson.json in Resources */,
 				B862003F282017F40016E233 /* Preview Assets.xcassets in Resources */,
 				B862003C282017F40016E233 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862006D28201C290016E233 /* ProjectDetail.swift in Sources */,
+				B862006C28201C290016E233 /* N247projectRow.swift in Sources */,
+				B862006A28201C290016E233 /* N247cardRow.swift in Sources */,
 				B862003A282017F30016E233 /* ContentView.swift in Sources */,
+				B862006E28201C290016E233 /* CardList.swift in Sources */,
 				B8620038282017F30016E233 /* podoApp.swift in Sources */,
+				B862006228201C120016E233 /* SwiftUIView.swift in Sources */,
+				B862007128201C740016E233 /* ModelData.swift in Sources */,
+				B862007428201C7A0016E233 /* N247Card.swift in Sources */,
+				B862006428201C190016E233 /* ProjectList.swift in Sources */,
+				B862007528201C7A0016E233 /* N247Project.swift in Sources */,
+				B862006B28201C290016E233 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
