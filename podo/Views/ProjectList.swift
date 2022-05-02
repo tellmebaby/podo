@@ -12,7 +12,7 @@ struct ProjectList: View {
         NavigationView{
             List(modelDataProjects, id: \.tabId) { n247projcet in
                 NavigationLink{
-                    CardList()
+                    CardList(a: 1)
                 }label:{
                     N247projectRow(n247projcet: n247projcet)
                 }
