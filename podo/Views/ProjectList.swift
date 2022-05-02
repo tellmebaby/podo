@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ProjectList: View {
+   
+    
     var body: some View {
+    
+        
         NavigationView{
             List(modelDataProjects, id: \.tabId) { n247projcet in
                 NavigationLink{
-                    CardList(a: 1)
+                    CardList(a: 100, n247Project: modelDataProjects[1])
                 }label:{
                     N247projectRow(n247projcet: n247projcet)
                 }
